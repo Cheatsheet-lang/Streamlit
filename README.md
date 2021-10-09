@@ -57,3 +57,26 @@ option = st.selectbox('Which Language do you know?', ('C', 'Python', 'Java'))
 
 st.write('You Know:', option)
 ```
+
+### text
+```python3
+# To display text in it
+
+st.text("This is simply a text")
+```
+
+### latex
+```python3
+# Render latex code on the dashboard
+
+st.latex(r'''
+E = MC^2
+''')
+```
+
+### markdown
+```python3
+# Display markdown code
+
+st.markdown("I have rendered **markdown code** in this")
+```
