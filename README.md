@@ -80,3 +80,24 @@ E = MC^2
 
 st.markdown("I have rendered **markdown code** in this")
 ```
+
+### title
+```python3
+# Display the title(it is usually in bold and caps)
+
+st.title('Display Title')
+```
+
+### header
+```python3
+# Header of any section(much less bold than title)
+
+st.header('Section Header')
+```
+
+### subheader
+```python3
+# This is a subheader
+
+st.subheader('My Subheader')
+```
